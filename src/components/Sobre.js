@@ -1,6 +1,8 @@
 import React from "react";
 import { StyleSheet, View, Text } from "react-native";
 
+import Ionicons from '@expo/vector-icons/AntDesign';
+
 
 export default function Pagina2() {
 
@@ -10,7 +12,10 @@ export default function Pagina2() {
         <View style={styles.container}>
             <Text style={styles.texto}>Sobre</Text>
 
+            <Ionicons name="rightcircle" size={32} color="green" />
+
         </View>
+
     )
 }
 

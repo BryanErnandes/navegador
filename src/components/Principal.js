@@ -1,15 +1,15 @@
 import React from "react";
 import { StyleSheet, View, Text } from "react-native";
-import { useNavigation } from "@react-navigation/native";
+//import { useNavigation } from "@react-navigation/native";
 
 export default function Principal() {
 
-    const navigation = useNavigation()
+    //const navigation = useNavigation()
 
     return (
         <View style={styles.container}>
             <View>
-                <Text>Principal</Text>
+                <Text style={styles.texto}>Principal</Text>
             </View>
         </View>
     )
